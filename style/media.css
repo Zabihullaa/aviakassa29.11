@@ -1,0 +1,181 @@
+@media(max-width:1040px) {
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .header__content {
+        height: 600px;
+    }
+
+}
+
+@media(max-width:930px) {
+    .nav-btn {
+        display: block;
+    }
+
+    .nav__list {
+        position: fixed;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        padding: 20px;
+        bottom: 0;
+        backdrop-filter: blur(15px);
+        transform: translateX(-110%);
+        width: 220px;
+        box-shadow: 7px 0 14px 0 red;
+        transition: 0.4s;
+    }
+
+    .nav__item {
+        padding: 20px 0;
+    }
+
+    .nav__link {
+        font-size: 16px;
+        line-height: 24px;
+        color: brown;
+    }
+
+    .nav-btn:focus+.nav__list {
+        transform: translateX(0);
+    }
+
+    .tel__link {
+        font-size: 13px;
+    }
+
+    .logoi {
+        width: 210px;
+    }
+
+    .header__content {
+        height: 400px;
+    }
+
+    .section1-title {
+        font-size: 30px;
+    }
+
+    .guarantee__list {
+        column-gap: 30px;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+        scroll-snap-type: x mandatory;
+        justify-content: initial;
+    }
+
+    .guarantee__item {
+        flex-shrink: 0;
+        scroll-snap-align: center;
+        width: 100%;
+    }
+}
+
+@media(max-width:700px) {
+
+
+    .header__content {
+        height: 300px;
+    }
+
+    .header-title {
+        font-size: 40px;
+
+    }
+
+    .section1-title {
+        font-size: 26px;
+    }
+
+    @media(max-width:650px) {
+        .header__content {
+            height: 250px;
+        }
+
+        .section1__card {
+            width: 300px;
+        }
+
+    }
+    .footer__content{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media(max-width:550px) {
+
+    .section1__card {
+        width: 250px;
+    }
+
+    .section1__card__text {
+        font-size: 13px;
+    }
+
+    .section1__card__name {
+        font-size: 16px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .section1-title {
+        font-size: 22px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .guarantee__name {
+        font-size: 23px;
+    }
+
+    .guarantee__text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .guarantee__name {
+        font-size: 23px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:420px) {
+
+    .header-title {
+        font-size: 23px;
+    }
+
+    .logoi {
+        width: 180px;
+    }
+
+    .section1__card {
+        width: 220px;
+    }
+
+    .section1__card-texts {
+        padding: 10px;
+    }
+
+    .section1__card__text {
+        font-size: 12px;
+    }
+
+    .section1__card__name {
+        font-size: 15px;
+    }
+
+    .section1-title {
+        font-size: 20px;
+    }
+}

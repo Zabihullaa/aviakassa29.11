@@ -1,0 +1,31 @@
+/* Popular Posts shortcode  */
+#pps-main{padding:15px 10px}
+#pps-main .pps-wrapper{margin-left: auto;margin-right: auto;}
+#pps-main .pps-wrapper{}
+#pps-main .pps-wrapper .pps-item{margin-bottom: 30px ;width:100%}
+#pps-main .pps-wrapper .pps-item .pps-item-inner{overflow: hidden;min-height: 45px;position: relative;
+-webkit-border-radius: 3px;-moz-border-radius: 3px;-o-border-radius: 3px;border-radius: 3px;}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-link{}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-link img{-webkit-border-radius: 3px;-moz-border-radius: 3px;-o-border-radius: 3px;border-radius: 3px;}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-star-inner{position: absolute;top: 20px;left: 20px;}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-star-inner .star-rating{font-size: 1.200em;}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-star-inner .star-rating .star{margin-right: 3px;text-shadow: 0 2px 2px rgba(0,0,0,0.2);color:#ffcd47;}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-content-inner{margin: 0;position: absolute;top: 55%;left: 20px;-moz-transform: translate(0,-50%);
+-ms-transform: translate(0,-50%);-webkit-transform: translate(0,-50%);-o-transform: translate(0,-50%);transform: translate(0,-50%);}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-content-inner h4{color: #fff;font-size: 1.333em;font-weight: 700;}
+#pps-main .pps-wrapper .pps-item .pps-item-inner .pps-content-inner h4 a{color: #fff;text-shadow: 0px 2px 5px rgba(0,0,0,0.8);}
+#pps-main .owl-theme .owl-nav{margin-top: 0;}
+#pps-main .owl-theme .owl-nav button i{}
+#pps-main .owl-carousel{position:relative}
+#pps-main .owl-carousel .owl-nav button{position:absolute;left:-10%;top:35%;font-size: 30px;color: #012f67;text-shadow: 0 0 1px #333;}
+#pps-main .owl-carousel .owl-nav button:hover{background: transparent;color: #333;}
+#pps-main .owl-carousel .owl-nav button.owl-next{position:absolute;left:auto;right:-10%}
+
+	/*Responsive*/
+@media only screen and (min-width:1000px) and (max-width:9000px)
+	{
+		#pps-main .owl-carousel .owl-item{float:none;width:100% !important;}
+	}
+@media only screen and (max-width:768px){
+		#pps-main .pps-wrapper .pps-item{margin-bottom: 10px;}
+	}
